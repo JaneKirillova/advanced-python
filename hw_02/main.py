@@ -1,4 +1,5 @@
 import os
+import logging
 from functools import reduce
 from thebestastlibrary.main import vizualize_ast
 
@@ -51,5 +52,8 @@ def make_file(title, author, table, image_location):
 
 
 if __name__ == '__main__':
-    table = [["1", "2", "3", "4"], ["hello", "from", "python", "script"], ["1111111", "longlonglonglong", "12", "34" ]]
-    make_file("Python task", "Evgeniia Kirillova", table, "artifacts/ast.png")
+    table = [["1", "2", "3", "4"], ["hello", "from", "python", "script"], ["1111111", "longlonglonglong", "12", "34"]]
+    try:
+        make_file("Python task", "Evgeniia Kirillova", table, "artifacts/ast.png")
+    except Exception as e:
+        logging.error("Execution failed: " + str(e))
