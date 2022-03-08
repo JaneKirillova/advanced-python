@@ -1,0 +1,3 @@
+Sync time: 2.2941973209381104 seconds
+Threads time: 4.233409881591797 seconds
+Process time: 0.4310944080352783 seconds
