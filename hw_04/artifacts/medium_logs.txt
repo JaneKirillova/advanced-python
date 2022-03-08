@@ -1,0 +1,198 @@
+Integration with 1 jobs:
+Job number: 0, start time: 1646782688.0046673, iterations from 0 to 1000, acc: 1.0007851925466296
+Result: 1.0007851925466296
+
+Integration with 1 jobs:
+Job number: 0, start time: 1646782688.0092978, iterations from 0 to 1000, acc: 1.0007851925466296
+Result: 1.0007851925466296
+
+Integration with 2 jobs:
+Job number: 0, start time: 1646782688.0111334, iterations from 0 to 500, acc: 0.7073366735896646
+Job number: 1, start time: 1646782688.0113392, iterations from 500 to 1000, acc: 0.29344851895696583
+Result: 1.0007851925466305
+
+Integration with 2 jobs:
+Job number: 0, start time: 1646782688.0148256, iterations from 0 to 500, acc: 0.7073366735896646
+Job number: 1, start time: 1646782688.014844, iterations from 500 to 1000, acc: 0.29344851895696583
+Result: 1.0007851925466305
+
+Integration with 3 jobs:
+Job number: 2, start time: 1646782688.0167494, iterations from 666 to 999, acc: 0.13488958583530564
+Job number: 0, start time: 1646782688.0164657, iterations from 0 to 333, acc: 0.4996513968039074
+Job number: 1, start time: 1646782688.0166779, iterations from 333 to 666, acc: 0.3662417425073317
+Result: 1.0007827251465446
+
+Integration with 3 jobs:
+Job number: 0, start time: 1646782688.0200822, iterations from 0 to 333, acc: 0.4996513968039074
+Job number: 1, start time: 1646782688.0203245, iterations from 333 to 666, acc: 0.3662417425073317
+Job number: 2, start time: 1646782688.0203419, iterations from 666 to 999, acc: 0.13488958583530564
+Result: 1.0007827251465446
+
+Integration with 4 jobs:
+Job number: 1, start time: 1646782688.0220487, iterations from 250 to 500, acc: 0.3245935350353426
+Job number: 2, start time: 1646782688.0220873, iterations from 500 to 750, acc: 0.21702750825495457
+Job number: 0, start time: 1646782688.021923, iterations from 0 to 250, acc: 0.3827431385543219
+Job number: 3, start time: 1646782688.0222137, iterations from 750 to 1000, acc: 0.07642101070201099
+Result: 1.00078519254663
+
+Integration with 4 jobs:
+Job number: 0, start time: 1646782688.0276918, iterations from 0 to 250, acc: 0.3827431385543219
+Job number: 2, start time: 1646782688.0283947, iterations from 500 to 750, acc: 0.21702750825495457
+Job number: 1, start time: 1646782688.028333, iterations from 250 to 500, acc: 0.3245935350353426
+Job number: 3, start time: 1646782688.028431, iterations from 750 to 1000, acc: 0.07642101070201099
+Result: 1.00078519254663
+
+Integration with 5 jobs:
+Job number: 1, start time: 1646782688.0307527, iterations from 200 to 400, acc: 0.27887975817774385
+Job number: 0, start time: 1646782688.030579, iterations from 0 to 200, acc: 0.3090553709580841
+Job number: 2, start time: 1646782688.0308077, iterations from 400 to 600, acc: 0.22140545159743538
+Job number: 3, start time: 1646782688.030959, iterations from 600 to 800, acc: 0.1422584367922808
+Job number: 4, start time: 1646782688.0310018, iterations from 800 to 1000, acc: 0.049186175021086284
+Result: 1.0007851925466305
+
+Integration with 5 jobs:
+Job number: 0, start time: 1646782688.0362859, iterations from 0 to 200, acc: 0.3090553709580841
+Job number: 1, start time: 1646782688.0364575, iterations from 200 to 400, acc: 0.27887975817774385
+Job number: 2, start time: 1646782688.036539, iterations from 400 to 600, acc: 0.22140545159743538
+Job number: 4, start time: 1646782688.036673, iterations from 800 to 1000, acc: 0.049186175021086284
+Job number: 3, start time: 1646782688.036653, iterations from 600 to 800, acc: 0.1422584367922808
+Result: 1.0007851925466305
+
+Integration with 6 jobs:
+Job number: 3, start time: 1646782688.0388653, iterations from 498 to 664, acc: 0.15920308815111134
+Job number: 4, start time: 1646782688.0389, iterations from 664 to 830, acc: 0.10082227990172098
+Job number: 1, start time: 1646782688.0386152, iterations from 166 to 332, acc: 0.24045552078758156
+Job number: 2, start time: 1646782688.0386517, iterations from 332 to 498, acc: 0.20682059949892545
+Job number: 0, start time: 1646782688.0385067, iterations from 0 to 166, acc: 0.2578338845438656
+Job number: 5, start time: 1646782688.0389266, iterations from 830 to 996, acc: 0.03562514575389069
+Result: 1.0007605186370956
+
+Integration with 6 jobs:
+Job number: 0, start time: 1646782688.0432525, iterations from 0 to 166, acc: 0.2578338845438656
+Job number: 1, start time: 1646782688.0435286, iterations from 166 to 332, acc: 0.24045552078758156
+Job number: 2, start time: 1646782688.0436254, iterations from 332 to 498, acc: 0.20682059949892545
+Job number: 3, start time: 1646782688.043673, iterations from 498 to 664, acc: 0.15920308815111134
+Job number: 5, start time: 1646782688.043824, iterations from 830 to 996, acc: 0.03562514575389069
+Job number: 4, start time: 1646782688.0438006, iterations from 664 to 830, acc: 0.10082227990172098
+Result: 1.0007605186370956
+
+Integration with 7 jobs:
+Job number: 4, start time: 1646782688.0459712, iterations from 568 to 710, acc: 0.11971270983529383
+Job number: 1, start time: 1646782688.0457666, iterations from 142 to 284, acc: 0.21030531650940815
+Job number: 3, start time: 1646782688.0459397, iterations from 426 to 568, acc: 0.15825854537084724
+Job number: 2, start time: 1646782688.0458, iterations from 284 to 426, acc: 0.18896318587740094
+Job number: 5, start time: 1646782688.0459952, iterations from 710 to 852, acc: 0.07523549976910139
+Job number: 0, start time: 1646782688.0456693, iterations from 0 to 142, acc: 0.2212275042655247
+Job number: 6, start time: 1646782688.0460856, iterations from 852 to 994, acc: 0.02703061594341999
+Result: 1.0007333775709963
+
+Integration with 7 jobs:
+Job number: 0, start time: 1646782688.050754, iterations from 0 to 142, acc: 0.2212275042655247
+Job number: 1, start time: 1646782688.050921, iterations from 142 to 284, acc: 0.21030531650940815
+Job number: 2, start time: 1646782688.051019, iterations from 284 to 426, acc: 0.18896318587740094
+Job number: 4, start time: 1646782688.0511217, iterations from 568 to 710, acc: 0.11971270983529383
+Job number: 3, start time: 1646782688.0510974, iterations from 426 to 568, acc: 0.15825854537084724
+Job number: 5, start time: 1646782688.0512435, iterations from 710 to 852, acc: 0.07523549976910139
+Job number: 6, start time: 1646782688.0513399, iterations from 852 to 994, acc: 0.02703061594341999
+Result: 1.0007333775709961
+
+Integration with 8 jobs:
+Job number: 4, start time: 1646782688.0537891, iterations from 500 to 625, acc: 0.1244818220715324
+Job number: 2, start time: 1646782688.0535283, iterations from 250 to 375, acc: 0.17295934368769916
+Job number: 0, start time: 1646782688.0533748, iterations from 0 to 125, acc: 0.19510537310776843
+Job number: 1, start time: 1646782688.053496, iterations from 125 to 250, acc: 0.18763776544655378
+Job number: 5, start time: 1646782688.0538118, iterations from 625 to 750, acc: 0.09254568618342222
+Job number: 3, start time: 1646782688.05374, iterations from 375 to 500, acc: 0.15163419134764364
+Job number: 6, start time: 1646782688.0539355, iterations from 750 to 875, acc: 0.05705307147550189
+Job number: 7, start time: 1646782688.0539753, iterations from 875 to 1000, acc: 0.019367939226509114
+Result: 1.0007851925466307
+
+Integration with 8 jobs:
+Job number: 0, start time: 1646782688.0596201, iterations from 0 to 125, acc: 0.19510537310776843
+Job number: 1, start time: 1646782688.0596902, iterations from 125 to 250, acc: 0.18763776544655378
+Job number: 2, start time: 1646782688.0597973, iterations from 250 to 375, acc: 0.17295934368769916
+Job number: 3, start time: 1646782688.0598612, iterations from 375 to 500, acc: 0.15163419134764364
+Job number: 7, start time: 1646782688.0600412, iterations from 875 to 1000, acc: 0.019367939226509114
+Job number: 4, start time: 1646782688.059974, iterations from 500 to 625, acc: 0.1244818220715324
+Job number: 5, start time: 1646782688.0600462, iterations from 625 to 750, acc: 0.09254568618342222
+Job number: 6, start time: 1646782688.060161, iterations from 750 to 875, acc: 0.05705307147550189
+Result: 1.0007851925466307
+
+Integration with 9 jobs:
+Job number: 0, start time: 1646782688.0621352, iterations from 0 to 111, acc: 0.1734881661468089
+Job number: 2, start time: 1646782688.0623348, iterations from 222 to 333, acc: 0.15791208758697586
+Job number: 5, start time: 1646782688.062498, iterations from 555 to 666, acc: 0.10013005410532635
+Job number: 3, start time: 1646782688.062456, iterations from 333 to 444, acc: 0.1427845202783548
+Job number: 1, start time: 1646782688.0623071, iterations from 111 to 222, acc: 0.1682511430701233
+Job number: 4, start time: 1646782688.0624783, iterations from 444 to 555, acc: 0.12332716812365024
+Job number: 6, start time: 1646782688.062749, iterations from 666 to 777, acc: 0.0738966054055007
+Job number: 7, start time: 1646782688.062776, iterations from 777 to 888, acc: 0.045422322743856235
+Job number: 8, start time: 1646782688.0627978, iterations from 888 to 999, acc: 0.015570657685948777
+Result: 1.000782725146545
+
+Integration with 9 jobs:
+Job number: 0, start time: 1646782688.0684893, iterations from 0 to 111, acc: 0.1734881661468089
+Job number: 1, start time: 1646782688.0687582, iterations from 111 to 222, acc: 0.1682511430701233
+Job number: 6, start time: 1646782688.0689871, iterations from 666 to 777, acc: 0.0738966054055007
+Job number: 3, start time: 1646782688.068894, iterations from 333 to 444, acc: 0.1427845202783548
+Job number: 2, start time: 1646782688.0688665, iterations from 222 to 333, acc: 0.15791208758697586
+Job number: 4, start time: 1646782688.069012, iterations from 444 to 555, acc: 0.12332716812365024
+Job number: 5, start time: 1646782688.069074, iterations from 555 to 666, acc: 0.10013005410532635
+Job number: 7, start time: 1646782688.0691597, iterations from 777 to 888, acc: 0.045422322743856235
+Job number: 8, start time: 1646782688.069209, iterations from 888 to 999, acc: 0.015570657685948777
+Result: 1.000782725146545
+
+Integration with 10 jobs:
+Job number: 9, start time: 1646782688.0719936, iterations from 900 to 1000, acc: 0.012434520214913333
+Job number: 5, start time: 1646782688.0716887, iterations from 500 to 600, acc: 0.10200390714359854
+Job number: 2, start time: 1646782688.0714908, iterations from 200 to 300, acc: 0.14502063870912865
+Job number: 8, start time: 1646782688.0719762, iterations from 800 to 900, acc: 0.03675165480617293
+Job number: 1, start time: 1646782688.071462, iterations from 100 to 200, acc: 0.15261126852871731
+Job number: 6, start time: 1646782688.0719297, iterations from 600 to 700, acc: 0.08209459510792567
+Job number: 7, start time: 1646782688.0719569, iterations from 700 to 800, acc: 0.060163841684355124
+Job number: 0, start time: 1646782688.0713718, iterations from 0 to 100, acc: 0.15644410242936688
+Job number: 3, start time: 1646782688.0716429, iterations from 300 to 400, acc: 0.13385911946861515
+Job number: 4, start time: 1646782688.07167, iterations from 400 to 500, acc: 0.119401544453837
+Result: 1.0007851925466307
+
+Integration with 10 jobs:
+Job number: 0, start time: 1646782688.0780795, iterations from 0 to 100, acc: 0.15644410242936688
+Job number: 1, start time: 1646782688.0782192, iterations from 100 to 200, acc: 0.15261126852871731
+Job number: 2, start time: 1646782688.0782878, iterations from 200 to 300, acc: 0.14502063870912865
+Job number: 3, start time: 1646782688.0783756, iterations from 300 to 400, acc: 0.13385911946861515
+Job number: 4, start time: 1646782688.0784242, iterations from 400 to 500, acc: 0.119401544453837
+Job number: 8, start time: 1646782688.0786529, iterations from 800 to 900, acc: 0.03675165480617293
+Job number: 5, start time: 1646782688.0785255, iterations from 500 to 600, acc: 0.10200390714359854
+Job number: 6, start time: 1646782688.0786393, iterations from 600 to 700, acc: 0.08209459510792567
+Job number: 7, start time: 1646782688.0787175, iterations from 700 to 800, acc: 0.060163841684355124
+Job number: 9, start time: 1646782688.0787597, iterations from 900 to 1000, acc: 0.012434520214913333
+Result: 1.0007851925466307
+
+Integration with 11 jobs:
+Job number: 2, start time: 1646782688.0811555, iterations from 180 to 270, acc: 0.13256162375434574
+Job number: 8, start time: 1646782688.0814612, iterations from 720 to 810, acc: 0.051069419395059865
+Job number: 9, start time: 1646782688.0814774, iterations from 810 to 900, acc: 0.032003394628461405
+Job number: 1, start time: 1646782688.081128, iterations from 90 to 180, acc: 0.13811319557349092
+Job number: 6, start time: 1646782688.081426, iterations from 540 to 630, acc: 0.0857844657287554
+Job number: 3, start time: 1646782688.0813074, iterations from 270 to 360, acc: 0.12436509167075606
+Job number: 5, start time: 1646782688.081345, iterations from 450 to 540, acc: 0.10074082892663151
+Job number: 7, start time: 1646782688.0814443, iterations from 630 to 720, acc: 0.06911647214545469
+Job number: 0, start time: 1646782688.0810437, iterations from 0 to 90, acc: 0.14090903836683372
+Job number: 4, start time: 1646782688.0813284, iterations from 360 to 450, acc: 0.11368714214192804
+Job number: 10, start time: 1646782688.0816, iterations from 900 to 990, acc: 0.012298816223771757
+Result: 1.0006494885554893
+
+Integration with 11 jobs:
+Job number: 0, start time: 1646782688.088486, iterations from 0 to 90, acc: 0.14090903836683372
+Job number: 1, start time: 1646782688.0885842, iterations from 90 to 180, acc: 0.13811319557349092
+Job number: 2, start time: 1646782688.0887117, iterations from 180 to 270, acc: 0.13256162375434574
+Job number: 3, start time: 1646782688.088763, iterations from 270 to 360, acc: 0.12436509167075606
+Job number: 4, start time: 1646782688.0888348, iterations from 360 to 450, acc: 0.11368714214192804
+Job number: 5, start time: 1646782688.0889208, iterations from 450 to 540, acc: 0.10074082892663151
+Job number: 6, start time: 1646782688.089025, iterations from 540 to 630, acc: 0.0857844657287554
+Job number: 7, start time: 1646782688.0894444, iterations from 630 to 720, acc: 0.06911647214545469
+Job number: 8, start time: 1646782688.0895772, iterations from 720 to 810, acc: 0.051069419395059865
+Job number: 9, start time: 1646782688.0896583, iterations from 810 to 900, acc: 0.032003394628461405
+Job number: 10, start time: 1646782688.0897381, iterations from 900 to 990, acc: 0.012298816223771757
+Result: 1.000649488555489
+
