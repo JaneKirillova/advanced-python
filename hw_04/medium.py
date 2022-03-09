@@ -1,14 +1,8 @@
 import math
 import concurrent
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
-from multiprocessing import Process
-from threading import Thread
 import multiprocessing as mp
 import time
-
-
-def integrate_handler(args):
-    return integrate(*args)
 
 
 def integrate(f, a, b, cur_job_num=0, n_jobs=1, n_iter=1000):
@@ -44,9 +38,11 @@ def run_integrate(function, a, b, n_jobs, pool_executor, logs_file):
 if __name__ == '__main__':
     with open('artifacts/medium_logs.txt', "w") as logs_file, \
             open('artifacts/medium_statistics.txt', "w") as file:
-        for n_jobs in range(1, mp.cpu_count()):
-            threads_time, threads_result = run_integrate(math.cos, 0, math.pi / 2, n_jobs, ThreadPoolExecutor, logs_file)
-            process_time, process_result = run_integrate(math.cos, 0, math.pi / 2, n_jobs, ProcessPoolExecutor, logs_file)
+        for n_jobs in range(1, 2 * mp.cpu_count() + 1):
+            threads_time, threads_result = run_integrate(math.cos, 0, math.pi / 2, n_jobs, ThreadPoolExecutor,
+                                                         logs_file)
+            process_time, process_result = run_integrate(math.cos, 0, math.pi / 2, n_jobs, ProcessPoolExecutor,
+                                                         logs_file)
             file.write(f'Job number: {n_jobs}\n')
             file.write(f'\tThreads:\n')
             file.write(f'\t\ttime: {threads_time}\n')

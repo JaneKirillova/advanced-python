@@ -1,3 +1,4 @@
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 from multiprocessing import Process
 from threading import Thread
 import time
@@ -14,6 +15,14 @@ def fibonacci(n):
         fib1, fib2 = fib2, fib1 + fib2
         result.append(fib2)
     return result
+
+
+def count_time_pools(function, argument, workers_num, pool_executor):
+    start_time = time.time()
+    with pool_executor(max_workers=workers_num) as executor:
+        executor.map(function, [argument] * workers_num)
+    end_time = time.time()
+    return end_time - start_time
 
 
 def count_time_sync():
@@ -36,6 +45,8 @@ def count_time(function, argument, workers_num, worker):
 
 
 if __name__ == '__main__':
+    # print(count_time_pools(fibonacci, 100000, 10, ThreadPoolExecutor))
+    # print(count_time_pools(fibonacci, 100000, 10, ProcessPoolExecutor))
     sync_time = count_time_sync()
     threads_time = count_time(fibonacci, ARGUMENT, THREADS_NUM, Thread)
     process_time = count_time(fibonacci, ARGUMENT, THREADS_NUM, Process)
