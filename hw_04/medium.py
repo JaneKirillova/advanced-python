@@ -6,7 +6,6 @@ import time
 
 
 def integrate(f, a, b, cur_job_num=0, n_jobs=1, n_iter=20000000):
-    print("aaaa")
     start_time = time.time()
     acc = 0
     step = (b - a) / n_iter
