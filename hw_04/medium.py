@@ -5,7 +5,8 @@ import multiprocessing as mp
 import time
 
 
-def integrate(f, a, b, cur_job_num=0, n_jobs=1, n_iter=1000):
+def integrate(f, a, b, cur_job_num=0, n_jobs=1, n_iter=20000000):
+    print("aaaa")
     start_time = time.time()
     acc = 0
     step = (b - a) / n_iter
@@ -38,15 +39,18 @@ def run_integrate(function, a, b, n_jobs, pool_executor, logs_file):
 if __name__ == '__main__':
     with open('artifacts/medium_logs.txt', "w") as logs_file, \
             open('artifacts/medium_statistics.txt', "w") as file:
+        file.write(f'Processes:\n')
+        for n_jobs in range(1, 2 * mp.cpu_count() + 1):
+            process_time, process_result = run_integrate(math.cos, 0, math.pi / 2, n_jobs, ProcessPoolExecutor,
+                                                         logs_file)
+            file.write(f'\tJob number: {n_jobs}, ')
+            file.write(f'time: {process_time}, ')
+            file.write(f'result: {process_result}\n')
+        file.write(f'Threads:\n')
         for n_jobs in range(1, 2 * mp.cpu_count() + 1):
             threads_time, threads_result = run_integrate(math.cos, 0, math.pi / 2, n_jobs, ThreadPoolExecutor,
                                                          logs_file)
-            process_time, process_result = run_integrate(math.cos, 0, math.pi / 2, n_jobs, ProcessPoolExecutor,
-                                                         logs_file)
-            file.write(f'Job number: {n_jobs}\n')
-            file.write(f'\tThreads:\n')
-            file.write(f'\t\ttime: {threads_time}\n')
-            file.write(f'\t\tresult: {threads_result}\n')
-            file.write(f'\tProcesses:\n')
-            file.write(f'\t\ttime: {process_time}\n')
-            file.write(f'\t\tresult: {process_result}\n')
+            file.write(f'\tJob number: {n_jobs}, ')
+            file.write(f'time: {threads_time}, ')
+            file.write(f'result: {threads_result}\n')
+
