@@ -33,18 +33,17 @@ def make_arguments_parser():
 
 
 if __name__ == '__main__':
-    print(aiofiles.__version__)
-    # parser = make_arguments_parser()
-    # args = parser.parse_args()
-    #
-    # if not os.path.exists(args.dir):
-    #     os.makedirs(args.dir)
-    #
-    # sites = ["https://picsum.photos/200/300"] * args.num
-    #
-    # loop = asyncio.get_event_loop()
-    # try:
-    #     task = loop.create_task(download_all_sites(sites, args.dir))
-    #     loop.run_until_complete(task)
-    # finally:
-    #     loop.close()
+    parser = make_arguments_parser()
+    args = parser.parse_args()
+
+    if not os.path.exists(args.dir):
+        os.makedirs(args.dir)
+
+    sites = ["https://picsum.photos/200/300"] * args.num
+
+    loop = asyncio.get_event_loop()
+    try:
+        task = loop.create_task(download_all_sites(sites, args.dir))
+        loop.run_until_complete(task)
+    finally:
+        loop.close()
